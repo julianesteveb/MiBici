@@ -4,6 +4,9 @@ namespace Mibici;
 
 interface PasajeroInterface {
 
-    public function obtenermoviid(movi $movi);
+    public function obtenermoviid(MoviInterface $movi){
+}
+
+    
 
 }
