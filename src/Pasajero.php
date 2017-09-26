@@ -15,8 +15,7 @@ class Pasajero implements PasajeroInterface{
     
     
     public function obtenermoviid(MoviInterface $movi){
-          
-          
+          return $movi->id;
           
           }
     
