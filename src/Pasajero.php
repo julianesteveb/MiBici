@@ -4,21 +4,20 @@ namespace Mibici;
 
 class Pasajero implements pasajeroInterface {
     
-    public $MoviID;
-    public $QuantityOfBikes;
+    public $moviId;
+    public $quantityOfBikes;
     
-    public function __construct(){
-          $this->MoviID=$this->obtenerMoviId;
+    public function __construct() {
+        $this->moviId=$this->obtenerMoviId;
           
           
-          }
+    }
     
     
-    public function obtenerMoviId(moviInterface $movi){
+    public function obtenerMoviId(moviInterface $movi) {
+        return $movi->id;
           
-          
-          
-          }
+    }
     
     
     
